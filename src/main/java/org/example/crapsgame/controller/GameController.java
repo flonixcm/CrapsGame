@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class GameController {
 
     @FXML
-    private Label pointLabel, shootLabel;
+    private Label pointLabel, shootLabel, pointLabel1, shotLabel1;
 
     @FXML
     private ImageView dice1ImageView, dice2ImageView;
