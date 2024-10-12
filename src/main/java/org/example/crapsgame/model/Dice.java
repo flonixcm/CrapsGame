@@ -7,7 +7,7 @@ public class Dice {
     private Image diceImage;
     private int value;
 
-    public Dice (){
+    public Dice() {
         this.value = 0;
     }
 
@@ -19,10 +19,11 @@ public class Dice {
         return this.value;
     }
 
-    public void rollDice() {
-        this.value = (int)(Math.random() * 6) + 1;
+    public int rollDice() {
+        this.value = (int) (Math.random() * 6) + 1;
         this.diceImage = new Image(
                 getClass().getResourceAsStream(PATH + "dice" + this.value + ".png")
         );
+        return 0;
     }
 }
