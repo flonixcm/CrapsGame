@@ -2,8 +2,7 @@ package org.example.crapsgame;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import org.example.crapsgame.view.GameStage;
-
+import org.example.crapsgame.view.SudokuView;
 import java.io.IOException;
 
 public class Main extends Application  {
@@ -14,6 +13,6 @@ public class Main extends Application  {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        GameStage.getInstance();
+        SudokuView.getInstance();
     }
 }
